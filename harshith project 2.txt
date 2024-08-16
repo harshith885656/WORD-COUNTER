@@ -1,0 +1,4 @@
+# Word Counter
+s=input("Enter your text: ")
+strlist=s.split()  #converts string to list
+print("Number of words in the given text is:",len(strlist))
